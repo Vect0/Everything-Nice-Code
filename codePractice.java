@@ -172,10 +172,57 @@ HTML Practice:
 </html>
 --------------------------------
                             
-                            
+C++ Practice:
+	Input Array:
+	
+	#include <iostream>
+using namespace std;
+ 
+
+ 
+void arrayThing()
+ {
+     int numArray[5];
+    
+    for (int i=0; i<5; i++)
+    {
+        cout << "Enter value for position " << i << endl;
+        cin >> numArray[i];
+    }
+ }
+ 
+
+int main()
+{
+    arrayThing();
+    
+}
+--------------------------------------
       
-      
-      
+Class and Object:
+	
+	#include <iostream>
+
+using namespace std;
+
+class class1{
+    
+    public: 
+        string name;
+        int age;
+    
+};
+
+
+int main()
+{
+    class1 obj;
+    
+    obj.name = "jim";
+    obj.age = 55;
+    
+    cout << "Object's name is " << obj.name << " and age is " << obj.age; 
+}
    
    
    
