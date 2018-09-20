@@ -1,30 +1,20 @@
-<html>
-<body>
+using System;
 
-<?php
-
-$name = array('Tom', 'Dallas', 'Jim');
-
-foreach ($name as $person)
-{
-
-?>
-
-
-
-<b><font color = "red">  The name of the person is <?php echo $person; ?> <br> </b></font>
-
-
-
-<?php
-}
-
-?>
-
-
-
-
-
-
-</body>
-</html>
+namespace HelloWorldApplication {
+   
+   class class1{
+       
+        static void Main (string[] args)
+       {
+           int num1;
+           
+           Console.WriteLine("Enter num");
+           num1 = Convert.ToInt32(Console.Read());
+           
+           Console.WriteLine("num is " + num1);
+           
+       }
+   }
+   
+   
+   }
