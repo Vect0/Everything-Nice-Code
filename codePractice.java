@@ -124,8 +124,53 @@ namespace DecisionMaking {
 }
    
    --------------------
-      
-      
+     
+HTML Practice:
+   
+   
+   <!DOCTYPE html>
+<html>
+<head>
+<title><h1>This is title</h1></title>
+</head>
+
+<body>
+
+<form>
+	<p> Form: </p>
+	<input type="text" name="box1" placeholder="Enter Name" required>
+    <button type="submit">Submit</button>
+
+</form>
+
+<h1>list:</h1>
+
+<ul>
+	<li><a href="google.com">google</a>
+    <li><a href="google.com">google2</a>
+</ul>
+
+<p>Table: </p>
+
+<table>
+	<tr>
+    	<th> Name</th>
+        <th> Age</th>
+    </tr>
+    <tr>
+    	<td>Jim</td>
+        <td>44</td>
+    </tr>
+</table>
+
+
+
+<h2>Image: </h2>
+<img src="img_girl.jpg">
+
+</body>
+</html>
+--------------------------------
                             
                             
       
