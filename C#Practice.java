@@ -70,7 +70,7 @@ namespace DecisionMaking {
       
    using System;
    
-   namespace forif;
+   namespace forIf;
    
    class class1{
       public static void Main (String[] args)
@@ -78,10 +78,17 @@ namespace DecisionMaking {
          int x;
          
          Console.WriteLine("Enter num");
+         x = Convert.ToInt32(Console.ReadLine());
+         
+         for (int i=0; i< x; i++)
+         {
+              Console.WriteLine( i + " ");
+         }
       }
       
    }
    
+ ------------------
    
    
    
