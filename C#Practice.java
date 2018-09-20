@@ -75,6 +75,9 @@ namespace DecisionMaking {
    class class1{
       public static void Main (String[] args)
       {
+         int x;
+         
+         Console.WriteLine("Enter num");
       }
       
    }
