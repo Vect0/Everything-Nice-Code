@@ -88,11 +88,44 @@ namespace DecisionMaking {
       
    }
    
- ------------------
+ -------------------
    
    method thing:
    
+   using System;
+
+   namespace methodThing{
+    
+    class class1{
+        
+        public int age;
+        public string name;
+        
+        public void getAgeName()
+        {
+            Console.WriteLine(name + " is " + age);
+            
+        }
+    }
+    
+    class class2{
+        
+        public static void Main(string[] args)
+        {
+            class1 obj = new class1();
+            
+            obj.age = 55;
+            obj.name = "jim";
+            
+            obj.getAgeName();
+            
+        }
+    }  
+}
    
+   --------------------
+      
+      
                             
                             
       
