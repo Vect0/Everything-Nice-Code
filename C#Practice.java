@@ -65,4 +65,35 @@ namespace DecisionMaking {
 }
 
 ------------------
+   for loop with if statement:
+      
+      
+   using System;
+   
+   namespace forif;
+   
+   class class1{
+      public static void Main (String[] args)
+      {
+      }
+      
+   }
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
 
