@@ -224,8 +224,57 @@ int main()
     cout << "Object's name is " << obj.name << " and age is " << obj.age; 
 }
    
-   
-   
+----------------------------------------
+JS Practice:
+	
+class class1{
+
+constructor(name){
+	this.name = name;
+}
+
+hi(){
+		return this.name;
+    }
+}
+
+var obj = class1("jim");
+	
+obj.hi();
+	
+	
+------------------------------------
+
+  Example invalid search Error popup from ICAOWorkload:
+	
+var ICAOStore = Ext.getStore('ICAOWorkloadStore');  			//gets the store, assigns it to a value
+	
+var ICAOValue = json.ICAO;				//gets the ICAO value the user entered into the search field
+	
+if (ICAOValue === undefined)				//launches the error message if the user doesn't enter anything for ICAO
+{
+	Ext.Msg.alert("Please enter a value for ICAO");	
+}
+	
+--------------------------------------
+	
+Renderer for Italicizing row value if date is in the past:
+	
+var today = new Date();				//gets the current date
+	
+var rowDate = record.get('ROW_DATE');		//gets the mission's date for a row
+	
+if (today > rowDate) 				// if the row is in the past, bold the value for that row.
+{
+	return "<b>" + value + "</b>"
+} else 
+{
+	return value;	
+}
+
+-----------------------------------------------
+	
+
    
    
    
