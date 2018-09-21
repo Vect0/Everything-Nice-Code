@@ -227,6 +227,8 @@ int main()
 ----------------------------------------
 JS Practice:
 	
+class object:
+	
 class class1{
 
 constructor(name){
@@ -242,7 +244,16 @@ var obj = class1("jim");
 	
 obj.hi();
 	
+-----------------------------------------
 	
+var obj = { name: "Jim", 
+	   age: 44, 
+	   both: function(value) { 
+			return this.name + " and " + this.age + " and " + value;
+	   }
+
+obj.both(33);
+	   
 ------------------------------------
 
   Example invalid search Error popup from ICAOWorkload:
