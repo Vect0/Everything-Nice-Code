@@ -252,7 +252,8 @@ using System;
      
 HTML Practice:
    
-   
+ Basic HTML form with POST variables:
+	
    <!DOCTYPE html>
 <html>
 <head>
@@ -261,9 +262,9 @@ HTML Practice:
 
 <body>
 
-<form>
+<form action = "actionFile.php" method = "POST">			
 	<p> Form: </p>
-	<input type="text" name="box1" placeholder="Enter Name" required>
+	<input type="text" name="box1" placeholder="Enter Name" required>		//$box1Value = $_POST['box1'];  in other file
     <button type="submit">Submit</button>
 
 </form>
