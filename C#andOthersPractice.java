@@ -1,6 +1,17 @@
-C# Practice:
+
+Previous interview questions:
+
+Sum Integers in an array, reverse a string, print 1-100 and output fizz instead if num is multiple of 3 and buzz if num is multiple of
+5 and fizzbuzz if num is multiple of 3 and 5.  Just write headers for a table with inventory and manufacturer and stuff.
+	
+Tapestry one: Join tables and fine anything with the keyword blue, blue and yellow.  Make an HTML form with input field, submit
+button, make a css file and color the header green.  I did a php file that accepted that email variable as a post variable.
+
 
 -------------
+
+C# Practice:
+
 
 read Var:
 
@@ -124,6 +135,65 @@ namespace DecisionMaking {
 }
    
    --------------------
+	   
+using System;
+	
+namespace space1{
+	
+	class class1{
+		
+		public static void Main(string[] args)
+		{
+			int[] numArray = new int[5];
+			
+			for (int i=0; i<numArray.length; i++)
+			{
+				Console.WriteLine("Enter value for position" + i)
+				numArray[i] = Convert.ToInt32(Console.ReadLine());
+				Console.WriteLine("value at position " + i + " is " + numArray[i]);
+			}
+		}
+	}
+	
+}
+	   
+-----------------------------
+Name/Grade class methods:
+	
+	
+using System;
+	
+	class class1{
+		
+		public name;
+		public grade;
+		
+		returnGrade()
+		{
+			Console.WriteLine("Name is " + name + " with a grade of " + grade);	
+		}
+		
+	class class2{
+		public static void Main(string[] args)
+		{
+			class1 obj = new class1();
+			
+			Console.WriteLine("Enter value for name: ");
+			obj1.name = Console.ReadLine();
+			Console.WriteLine("Enter value for age: ");
+			obj1.age = Convert.ToInt32(Console.ReadLine());
+			
+			obj.returnGrade();
+		}
+		
+	}
+	}
+	
+-----------------------------
+	
+
+	
+-----------------------------
      
 HTML Practice:
    
