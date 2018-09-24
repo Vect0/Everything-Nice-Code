@@ -258,7 +258,6 @@ obj.both(33);
 
   Example invalid search Error popup from ICAOWorkload:
 	
-var ICAOStore = Ext.getStore('ICAOWorkloadStore');  			//gets the store, assigns it to a value
 	
 var ICAOValue = json.ICAO;				//gets the ICAO value the user entered into the search field
 	
