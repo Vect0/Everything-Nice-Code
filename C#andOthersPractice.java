@@ -409,7 +409,36 @@ if (today > rowDate) 				// if the row is in the past, bold the value for that r
 }
 
 -----------------------------------------------
-	
+perl practice:
+	   
+$name = "Jim";
+
+@array = (3, 44, "joe", 55);
+$arraySize = @array;
+
+for ($i=0; $i<$arraySize; $i++)     #print values of an array
+{
+    print "$array[$i] \n";
+}
+
+
+sub printName{
+    
+    print "$name \n";               #print name
+}
+
+printName();
+
+
+sub printInput{                     #print input values of an array
+    
+    for ($i=0; $i<5; $i++)
+    {
+        print "Input value at position $i is $_[$i] \n";
+    }
+}
+
+printInput(33, "joe", "paul", 2, "ralph");
 
    
    
