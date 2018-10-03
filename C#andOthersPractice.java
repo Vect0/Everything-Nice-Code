@@ -287,6 +287,39 @@ public class class1
     }
 }
 
+basically the same:
+	
+public class class1
+{
+    
+    public static void main(String[] args)
+    {
+        int[] arr = new int[3];
+        int num1 =4;
+        int num2 =23;
+        int num3 =44;
+        
+        class2 obj = new class2();
+        obj.returnArr(arr, num1, num2, num3);
+    }
+}
+
+class class2
+{
+    
+    public void returnArr(int[] arr, int num1, int num2, int num3)
+    {
+        
+        arr[0] = num1;
+        arr[1] = num2;
+        arr[2] = num3;
+        
+        for (int i=0; i<arr.length; i++)
+        {
+            System.out.println("Value for position " + i + " is " + arr[i]);
+        }
+    }
+}
 	
 -----------------------------
      
