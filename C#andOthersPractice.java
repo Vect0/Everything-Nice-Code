@@ -245,7 +245,47 @@ using System;
 	}
 	
 -----------------------------
+Java Practice:
 	
+pass array to other class method:
+	
+import java.util.Scanner;
+
+
+public class class1
+{
+    
+    public static void main(String[] args)
+    {
+        
+        int[] arr = new int[3];
+        
+        Scanner sc = new Scanner(System.in);
+        
+        for (int i=0; i<arr.length; i++)
+        {
+            
+            System.out.println("Enter value for position " + i);
+            
+            arr[i] = i*2;
+        }
+        
+        class2 obj = new class2();
+        obj.returnArr(arr);
+    }
+}
+
+ class class2
+{
+    
+    public void returnArr(int[] array)
+    {
+        for (int i=0; i<array.length; i++)
+        {
+            System.out.println("Value at position " + i + " is " + array[i]);
+        }
+    }
+}
 
 	
 -----------------------------
