@@ -287,6 +287,7 @@ public class class1
     }
 }
 
+------------------------------------
 basically the same:
 	
 public class class1
@@ -318,6 +319,44 @@ class class2
         {
             System.out.println("Value for position " + i + " is " + arr[i]);
         }
+    }
+}
+	
+--------------------------------
+Super and Extends example:
+	
+class class1 {
+    
+    
+    int age = 30;
+}
+
+class class2 extends class1  {
+    
+    int age = 10;
+    
+    public void returnNormalAge()
+    {
+        System.out.println("Age is " + age);        //returns child class age
+        
+    }
+   
+    public void returnSuperAge()
+    {
+        System.out.println("Age is " + super.age);  //returns parent class age
+    }
+}
+
+public class class3{
+    
+    public static void main(String[] args)
+    {
+        class2 obj = new class2();
+        
+        obj.returnNormalAge();
+        
+        obj.returnSuperAge();          
+        
     }
 }
 	
